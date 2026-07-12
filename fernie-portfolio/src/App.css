@@ -30,7 +30,13 @@
   display: flex;
   gap: 20px;
 }
-
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
 .hero {
   position: relative;
 

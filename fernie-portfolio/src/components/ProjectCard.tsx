@@ -10,7 +10,7 @@ function ProjectCard({
     description,
 }: ProjectCardProps) {
     return (
-        <div>
+        <div className="project-card">
             <h3>{title}</h3>
             <p>{technology}</p>
             <p>{description}</p>

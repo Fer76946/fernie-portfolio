@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from './components/Projects';
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import Message from "./components/Message";
 import './App.css'
 
 function App() {
@@ -13,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <Message />
     </div>
   );
 }
