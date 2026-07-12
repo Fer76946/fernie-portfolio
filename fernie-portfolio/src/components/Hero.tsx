@@ -5,16 +5,18 @@ function Hero() {
     
         <h2>Software Engineer</h2>
         <p>
-            I build full-stack applications, AI systems,
-            and multilingual software products.
+            I build full-stack applications and other applications that combine software engineering, 
+            Artificial Intelligence systems, and multilingual software products.
         </p>
-        
-        <button>
-            View Projects
-        </button>
-        <button>
-            Contact Me
-        </button>
+
+        <div className="hero-buttons">
+            <button>
+                View Projects
+            </button>
+            <button>
+                Contact Me
+            </button>
+        </div>        
 
     </section>
   );
