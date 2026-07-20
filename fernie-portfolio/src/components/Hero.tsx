@@ -1,6 +1,6 @@
 function Hero() {
     return (
-    <section>
+    <section id="about" className="hero">
         <h1>Fernie Ramirez</h1>
     
         <h2>Software Engineer</h2>

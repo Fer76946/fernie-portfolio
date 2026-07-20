@@ -14,6 +14,10 @@ function ProjectCard({
             <h3>{title}</h3>
             <p>{technology}</p>
             <p>{description}</p>
+
+            <button>
+                View Project
+            </button>
         </div>
     );
 }
